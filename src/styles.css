@@ -1,0 +1,29 @@
+/* You can add global styles to this file, and also import other style files */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital@0;1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Italianno&family=Playfair+Display&family=Poppins:ital@0;1&family=Raleway:ital,wght@1,200&family=Zen+Dots&display=swap');
+
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+
+html{
+    font-size: 16px;
+}
+
+body{
+    margin: 0;
+    font-family: "Poppins", sans-serif;/*if any reason poppins is not loaded. sans-serif is loaded*/
+    font-size: 16px;
+}
+
+body::-webkit-scrollbar{
+    display: none;
+}
+
+a{
+    text-decoration: none;
+}
+

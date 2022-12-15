@@ -1,0 +1,69 @@
+
+header{
+    background: white;
+    padding: 0;
+    border-bottom: 1px solid ;
+   
+}
+
+a{
+    color: white;
+    letter-spacing: 3px;
+    font-size: 20px;
+    padding: 3px;
+    
+}
+
+.container div img{
+    width: 100%;
+    height: 5rem;
+    opacity: 1;
+}
+
+.container div img:hover{
+    cursor: pointer;
+    opacity: .9;
+}
+
+
+header nav a{
+    font-size: 24px;
+
+}
+
+a span{
+    color: green;
+    font-size: 24px;
+    letter-spacing: 5px;
+    padding: 3px;
+
+}
+
+a:hover{
+    background: rgb(22, 52, 74);
+    color: white;
+    
+}
+
+.container{
+    background-color: black;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+a.logo{
+    font-weight: bold;
+    padding: 1em;
+}
+
+nav ul{
+    list-style-type: none;
+    margin: 0;
+}
+
+nav ul li a{
+    padding: 1em;
+    display: inline-block;
+}
+
